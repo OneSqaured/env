@@ -42,5 +42,14 @@ pyenv global 3.10.12
 
 echo "Python 3.10.12 installed and set as global version."
 
+# Install Poetry
+echo "Installing Poetry..."
+curl -sSL https://install.python-poetry.org | python -
+
+# Add Poetry to PATH
+echo "Adding Poetry to PATH..."
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+
 # End of script
 echo "Setup complete!"

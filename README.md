@@ -6,7 +6,22 @@ This guide will help you set up your Python development environment at One Squar
 
 - A MacOS or Linux system. Note that the instructions are written with MacOS users in mind, but most of them should work on Linux as well.
 
-## Steps to Set Up Your Environment
+## Automatic Steps to Set Up Your Environment
+
+1. You can navigate to the repository in the terminal with the `cd` command. For example, if your repository is in the Documents directory, you would type `cd Documents/env`.
+2. In your terminal, you need to change the file permissions for `scripts/setup.sh` to make it executable. You can do this with the following command:
+
+   ```bash
+   chmod +x scripts/setup.sh
+   ```
+
+3. Now you can run the setup script with the following command:
+
+   ```bash
+   ./scripts/setup.sh
+   ```
+
+## Manual Steps to Set Up Your Environment
 
 ### Step 1: Install Homebrew
 
@@ -92,6 +107,6 @@ Or locally in a directory:
 pyenv local 3.10.12
 ```
 
-## Congratulations!
+Congratulations!
 
 You have now successfully set up your Python development environment at One Squared. You can start building awesome Python projects!
