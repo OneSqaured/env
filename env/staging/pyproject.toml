@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "production"
+name = "staging"
 version = "0.1.0"
-description = "production"
+description = "staging"
 authors = ["Shawn Lin <shawn@1scap.com>"]
 readme = "README.md"
 
